@@ -8,10 +8,11 @@
     <title>Mountain Template</title>
 
     <!-- Bootstrap -->
-    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/foundation/css/normalize.css" rel="stylesheet">
+    <link href="/static/foundation/css/foundation.min.css" rel="stylesheet">
     <link href="/static/animate.css" rel="stylesheet">
     <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Anton' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,10 +22,11 @@
     <![endif]-->
   </head>
   <body>
+    <a class="show-on-focus" href="#more">Skip to Content</a>
     <header>
-      <div id="nav">
-        <nav class="pull-right animated fadeInRightBig">
-          <ul class="nav nav-pills">
+      <div id="nav" class="row">
+        <nav class="right animated fadeInRightBig">
+          <ul class="inline-list">
             <li role="presentation"><a href='https://www.facebook.com/LungSask' target='_blank'><i class='fa fa-facebook-square'></i></a></li>
             <li role="presentation"><a href='https://twitter.com/lungsk' target='_blank'><i class='fa fa-twitter-square'></i></a></li>
             <li role="presentation"><a href="#more">Learn More</a></li>
@@ -39,105 +41,104 @@
         <a href="#more" class="btn btn-default">Learn more&hellip;</a>
       </div> -->
     </header>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          <h1 id="more">Mountain Inc</h1>
-        </div>
+    <div class="row">
+      <h1 id="more">Mountain Inc</h1>
+    </div>
+    <div id="featured" class="row">
+      <div class="small-12 medium-4 columns">
+        <img src="http://placehold.it/200x200" class="radius round" />
+        <h3>Thumbnail label</h3>
+        <p>
+          Kogi next level sustainable, aute quis locavore pariatur ugh narwhal XOXO quinoa keffiyeh plaid. McSweeney's Intelligentsia photo booth, lumbersexual pour-over raw denim deserunt in gluten-free irure Godard placeat. Put a bird on it craft beer Vice, sint post-ironic skateboard crucifix do pork belly lumbersexual trust fund literally PBR.
+        </p>
       </div>
-      <div id="featured" class="row">
-        <div class="col-sm-4">
-          <img src="http://placehold.it/200x200" class="img-circle" />
-          <h3>Thumbnail label</h3>
-          <p>
-            Kogi next level sustainable, aute quis locavore pariatur ugh narwhal XOXO quinoa keffiyeh plaid. McSweeney's Intelligentsia photo booth, lumbersexual pour-over raw denim deserunt in gluten-free irure Godard placeat. Put a bird on it craft beer Vice, sint post-ironic skateboard crucifix do pork belly lumbersexual trust fund literally PBR.
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <img src="http://placehold.it/200x200" class="img-circle" />
-          <h3>Thumbnail label</h3>
-          <p>
-            Ethical qui tempor fap, readymade ullamco exercitation in art party id vegan listicle eiusmod. Chillwave Tumblr vero, odio Bushwick small batch iPhone before they sold out nostrud post-ironic typewriter sriracha consequat seitan Helvetica. Portland nulla Kickstarter Marfa. Vinyl reprehenderit minim ethical freegan.
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <img src="http://placehold.it/200x200" class="img-circle" />
-          <h3>Thumbnail label</h3>
-          <p>
-            Jean shorts VHS semiotics normcore sapiente. Schlitz cred culpa, 3 wolf moon pariatur church-key kogi American Apparel laborum. Truffaut nulla VHS, vero pop-up tempor vegan. Godard incididunt you probably haven't heard of them quis tempor letterpress, pariatur lo-fi cold-pressed semiotics quinoa selfies fugiat.
-          </p>
-        </div>
+      <div class="small-12 medium-4 columns">
+        <img src="http://placehold.it/200x200" class="radius round" />
+        <h3>Thumbnail label</h3>
+        <p>
+          Ethical qui tempor fap, readymade ullamco exercitation in art party id vegan listicle eiusmod. Chillwave Tumblr vero, odio Bushwick small batch iPhone before they sold out nostrud post-ironic typewriter sriracha consequat seitan Helvetica. Portland nulla Kickstarter Marfa. Vinyl reprehenderit minim ethical freegan.
+        </p>
       </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <hr>
-          <h2 id="contact">Get in Touch</h2>
-          <form class="form-horizontal">
-            <div class="form-group">
-              <label for="inputName" class="col-sm-2 control-label">Name</label>
-              <div class="col-sm-8">
-                <input type="text" class="form-control" id="inputName" placeholder="Name">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputEmail" class="col-sm-2 control-label">Email</label>
-              <div class="col-sm-8">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputMessage" class="col-sm-2 control-label">Message</label>
-              <div class="col-sm-8">
-                <textarea class="form-control" id="inputMessage" rows="3" placeholder="Message"></textarea>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-8 text-center">
-                <button type="submit" class="btn btn-lg btn-primary">Send</button>
-              </div>
-            </div>
-          </form>
-        </div>
+      <div class="small-12 medium-4 columns">
+        <img src="http://placehold.it/200x200" class="radius round" />
+        <h3>Thumbnail label</h3>
+        <p>
+          Jean shorts VHS semiotics normcore sapiente. Schlitz cred culpa, 3 wolf moon pariatur church-key kogi American Apparel laborum. Truffaut nulla VHS, vero pop-up tempor vegan. Godard incididunt you probably haven't heard of them quis tempor letterpress, pariatur lo-fi cold-pressed semiotics quinoa selfies fugiat.
+        </p>
       </div>
-      <div class="row">
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <hr>
+        <h2 id="contact">Get in Touch</h2>
+        <form>
+          <div class="row">
+            <div class="small-12 medium-2 columns">
+              <label for="inputName" class="text-right small-only-text-left inline">Name</label>
+            </div>
+            <div class="small-12 medium-10 columns">
+              <input id="inputName" type="text" placeholder="Name" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-2 columns">
+              <label for="inputEmail" class="text-right small-only-text-left inline">Email</label>
+            </div>
+            <div class="small-12 medium-10 columns">
+              <input id="inputEmail" type="email" placeholder="Email" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-2 columns">
+              <label for="inputMessage" class="text-right small-only-text-left inline">Message</label>
+            </div>
+            <div class="small-12 medium-10 columns">
+              <textarea id="inputMessage" rows="3" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 columns text-center">
+              <button type="submit" class="button large">Send</button>
+            </div>
+          </div>
+        </form>
       </div>
+    </div>
+    <div class="row">
     </div>
 
     <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6">
-            <nav class="pull-left">
-              <ul class="nav nav-pills">
-                <li role="presentation"><a href="http://www.mroberts.me" target="_blank">&copy; Matthew Roberts Inc</a></li>
-              </ul>
-            </nav>
-
-          </div>
-          <div class="col-sm-6">
-            <nav class="pull-right">
-              <ul class="nav nav-pills">
-                <li role="presentation"><a href="#">Privacy Policy</a></li>
-                <li role="presentation"><a href="#">Corporate</a></li>
-              </ul>
-            </nav>
-          </div>
+      <div class="row">
+        <div class="small-12 medium-6 columns">
+          <nav class="left">
+            <ul class="inline-list">
+              <li role="presentation"><a href="http://www.mroberts.me" target="_blank">&copy; Matthew Roberts Inc</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="small-12 medium-6 columns">
+          <nav class="right">
+            <ul class="inline-list">
+              <li role="presentation"><a href="#">Privacy Policy</a></li>
+              <li role="presentation"><a href="#">Corporate</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/static/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/static/typist.js"></script>
+    <script src="/static/foundation/js/foundation.min.js"></script>
+    <!-- <script src="/static/typist.js"></script> -->
     <!-- <script src="/static/jquery.fitText.js"></script> -->
     <script src="/static/flowtype.js"></script>
     <script>
       $(function() {
-        new Typist(document.querySelector("#typist-element"), {
-          letterInterval: 60,
-          textInterval:   4000
-        });
+        // new Typist(document.querySelector("#typist-element"), {
+        //   letterInterval: 60,
+        //   textInterval:   4000
+        // });
         $('a[href=#more]').click(function(){
           event.preventDefault();
           $('html, body').animate({scrollTop: $('#more').offset().top}, 'slow');
@@ -153,6 +154,7 @@
         // $("header h1").fitText(0.5);
         // $("#more").fitText(0.8);
       });
+      $(document).foundation();
     </script>
   </body>
 </html>
