@@ -1,0 +1,149 @@
+html, body {
+  height: 100%;
+  font-family: 'Montserrat', 'Gotham', sans-serif;
+}
+
+header {
+  background: url('../media/mountains.jpg') no-repeat;
+  background-size: cover;
+  color: #fff;
+  min-height: 500px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+header nav {
+  padding: 1em;
+  font-size: 1.5em;
+}
+header .nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+header #title {
+  margin: 20% auto;
+  text-align: center;
+}
+header h1 {
+  font-size: 6em;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+header h1 span {
+  display: inline;
+  border: 5px solid #fff;
+  padding: 0.2em 0.4em;
+  background: rgba(0,0,0,0.2);
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+#typist-element:after {
+  content: " ";
+  display: inline-block;
+  height: 0.8em;
+  position: relative;
+  margin: 0 5px;
+  width: 5px;
+  background: #fff;
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
+}
+
+.selectedText {
+  display: none;
+}
+
+header #info {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  bottom: 0;
+  text-transform: uppercase;
+}
+
+header #info a {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-family: Oswald, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-family: Oswald, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#featured {
+  text-align: center;
+}
+#featured img {
+  max-width: 200px;
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
+}
+#featured p {
+  text-align: left;
+}
+
+footer {
+  color: #888;
+  background: #333;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #888;
+}
+footer .nav>li>a:focus, .nav>li>a:hover {
+  color: #ccc;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+@media( max-width: 768px ) {
+  header #title {
+    margin: 30% auto;
+    text-align: center;
+  }
+  header nav {
+    font-size: 1em;
+  }
+  header #nav {
+    background: rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  header h1 {
+    font-size: 5em;
+  }
+}
